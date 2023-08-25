@@ -1,5 +1,5 @@
 <h1>manic pixie butterfly clearpill dev fr</h1>
-- <h2>yoinked the icons from CLASSIC 95</h2> <br>
+- yoinked the icons from CLASSIC 95 <br>
 <a href="https://github.com/quadpixels/classic95">https://github.com/quadpixels/classic95</a> <br>
 (pls dont sue iluvu) <br>
 - heavy inspo from non-os nilay nishit idk him but pretty cool guy i assume <br>
