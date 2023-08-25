@@ -69,11 +69,24 @@ body{
 .file-icon-set > .logo-set{
     background-color: white;
     display: grid;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto;
     grid-template-columns: auto auto 1fr;
-    gap: 20px;
+    gap: 30px;
     margin: 20px 0px 0px 20px;
-    
+}
+.file-icon-set > .logo-set a{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-decoration: none;
+    align-items: center;
+    font-size: 18px;
+    color: black;
+    padding: 2px 2px 2px 2px;
+}
+.file-icon-set > .logo-set a span:hover{
+    background-color: black;
+    color: white;
 }
 #empty-top{
     grid-area: 3/2/-2/-2;
