@@ -84,6 +84,9 @@ body{
     color: black;
     padding: 2px 2px 2px 2px;
 }
+.file-icon-set > .logo-set a:hover{
+    cursor: crosshair;
+}
 .file-icon-set > .logo-set a span:hover{
     background-color: black;
     color: white;
@@ -97,6 +100,44 @@ body{
 }
 .empty-space{
     background-color: rgb(255, 253, 220);
+}
+#about-me-screen {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    border: 3px solid black;
+    text-align: center;
+}
+.about-me-content-container{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto 1fr;
+    justify-content: center;
+}
+#about-me-screen-header {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: rgb(185, 207, 226);
+    color: black;
+    border: solid black;
+    border-width: 0px 0px 3px 0px;
+}
+.about-me-close{
+    background-color: rgb(185, 207, 226);
+    cursor: grab;
+    border: solid black;
+    border-width: 0px 0px 3px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5px;
+}
+.about-me-screen-content{
+    grid-area: 2/1/-1/-1;
+}
+.deactive{
+    display: none;
 }
 @media screen and (max-width: 900px){
     body{
