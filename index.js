@@ -5,12 +5,19 @@ const about_me_closing = document.getElementsByClassName('about-me-close')[0]
 const project_folder_logo = document.getElementsByClassName('project-folder-clickable')[0]
 const project_section = document.getElementById('project-window')
 const project_closing = document.getElementsByClassName('project-close')[0]
+
+const terminal_logo = document.getElementsByClassName('terminal-sim')[0]
+const terminal_section = document.getElementById('terminal-window')
+const terminal_closer = document.getElementsByClassName('terminal-close')[0]
 //element deactivation commands
-deactivate(about_me_logo , about_me_section);
-deactivate(about_me_closing , about_me_section);
+deactivate(about_me_logo,about_me_section);
+deactivate(about_me_closing,about_me_section);
 
 deactivate(project_folder_logo,project_section);
 deactivate(project_closing,project_section);
+
+deactivate(terminal_logo,terminal_section);
+deactivate(terminal_closer,terminal_section)
 
 // element deactivation
 function deactivate(host_element, target_element) {
@@ -19,9 +26,9 @@ function deactivate(host_element, target_element) {
   })
 }
 // Make the DIV element draggable:
-
-dragElement(about_me_section);
 dragElement(project_section);
+dragElement(about_me_section);
+dragElement(terminal_section);
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
