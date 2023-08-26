@@ -71,7 +71,7 @@ body{
     background-color: white;
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: auto auto 1fr;
+    grid-template-columns: auto auto auto 1fr;
     gap: 30px;
     margin: 20px 0px 0px 20px;
 }
@@ -102,7 +102,7 @@ body{
 }
 #about-me-screen {
     position: absolute;
-    z-index: 11;
+    z-index: 9;
     background-color: #f1f1f1;
     border: 3px solid black;
     text-align: center;
@@ -116,7 +116,7 @@ body{
 #about-me-screen-header {
     padding: 10px;
     cursor: move;
-    z-index: 12;
+    z-index: 10;
     background-color: rgb(185, 207, 226);
     color: black;
     border: solid black;
