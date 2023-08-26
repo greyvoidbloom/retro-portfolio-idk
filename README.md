@@ -4,4 +4,4 @@
 (pls dont sue iluvu) <br>
 - heavy inspo from non-os nilay nishit idk him but pretty cool guy i assume <br>
 <a href="https://webflow.com/made-in-webflow/website/non-os">https://webflow.com/made-in-webflow/website/non-os</a><br>
-- <a href="https://greyvoidbloom.github.io/retro-portfolio-idk/">Deployment</a>
+- <h2><a href="https://greyvoidbloom.github.io/retro-portfolio-idk/">Deployment</a></h2>
