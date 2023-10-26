@@ -2,6 +2,7 @@
 *{
     max-height: 100vh;
     cursor: url(./assets/retrowave_arrow.cur),auto;
+    overflow: scroll;
 }
 body{
     background-color: rgb(55, 110, 166);
@@ -115,7 +116,6 @@ body{
 }
 #about-me-screen-header , #project-window-header , #terminal-window-header{
     padding: 10px;
-    cursor: move;
     z-index: 10;
     background-color: rgb(185, 207, 226);
     color: black;
@@ -132,7 +132,7 @@ body{
     padding-right: 5px;
 }
 .about-me-close > img , .project-close > img , .terminal-close > img{
-    cursor: grab;
+    cursor: url(./assets/BusyRed.cur),auto;
     border: 2px solid black;
 }
 .about-me-screen-content , .project-screen-content , .terminal-content{
